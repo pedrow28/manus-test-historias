@@ -1,0 +1,13 @@
+- [x] Criar a estrutura básica do aplicativo Streamlit.
+- [x] Adicionar seletor para faixa etária da criança (0-12 meses, 1-3 anos, 4-6 anos).
+- [x] Adicionar campos de texto para a chave de API e para o modelo LLM.
+- [x] Adicionar campo de texto para a temática da história.
+- [x] Adicionar botão para gerar a história.
+- [x] Incluir instruções de uso claras e visíveis na interface.
+- [x] Aplicar um design lúdico e amigável para crianças (dentro das capacidades do Streamlit).
+- [x] Pesquisar melhores práticas para histórias infantis por faixa etária.
+- [x] Implementar a lógica de adaptação da linguagem e estilo da história.
+- [x] Simular a chamada ao LLM para geração da história. (Alterado para integração real)
+- [x] Testar o aplicativo localmente.
+- [x] Validar o funcionamento e a usabilidade.
+- [x] Preparar o código e as instruções de uso para entrega.

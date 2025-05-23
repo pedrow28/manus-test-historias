@@ -1,0 +1,10 @@
+# Interface Web
+streamlit>=1.35.0
+
+# Provedores de LLM (instale conforme necessidade)
+openai>=1.30.0        # Para OpenAI e Azure OpenAI
+anthropic>=0.21.3     # Para modelos da Anthropic (Claude)
+litellm>=1.30.6       # Para Meta Llama e outros via LiteLLM
+
+# Sistema operacional (opcional)
+python-dotenv         # Caso deseje usar variáveis de ambiente a partir de um .env
