@@ -248,13 +248,13 @@ st.markdown("""
     <p>
         Construído por Pedro William Ribeiro Diniz com Manus
         <br>
-        <a href="URL_DO_SEU_LINKEDIN_AQUI" target="_blank">
+        <a href="https://www.linkedin.com/in/pedrowilliamrd/" target="_blank">
             <span class="icon">🔗</span>LinkedIn
         </a> |
-        <a href="URL_DO_SEU_GITHUB_AQUI" target="_blank">
+        <a href="https://github.com/pedrow28" target="_blank">
             <span class="icon">💻</span>GitHub
         </a> |
-        <a href="URL_DO_MANUS_AQUI" target="_blank">
+        <a href="https://manus.im/app" target="_blank">
             <span class="icon">💡</span>Manus
         </a>
     </p>
