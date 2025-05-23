@@ -218,6 +218,47 @@ if st.sidebar.button("🪄 Gerar História!"):
             st.markdown(f"<div style='background-color: #FFFACD; padding: 15px; border-radius: 10px; border: 2px solid #FFD700;'>{historia_gerada}</div>", unsafe_allow_html=True)
 
 st.markdown("<br><br><hr>", unsafe_allow_html=True)
-st.markdown("<footer><p style='text-align:center; color:grey;'>Criado com ❤️ por Manus IA</p></footer>", unsafe_allow_html=True)
+st.markdown("""
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1; /* Você pode mudar a cor de fundo */
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+.footer a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .icon {
+    margin-right: 5px;
+}
+</style>
+
+<div class="footer">
+    <p>
+        Construído por Pedro William Ribeiro Diniz com Manus
+        <br>
+        <a href="URL_DO_SEU_LINKEDIN_AQUI" target="_blank">
+            <span class="icon">🔗</span>LinkedIn
+        </a> |
+        <a href="URL_DO_SEU_GITHUB_AQUI" target="_blank">
+            <span class="icon">💻</span>GitHub
+        </a> |
+        <a href="URL_DO_MANUS_AQUI" target="_blank">
+            <span class="icon">💡</span>Manus
+        </a>
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
 # Para executar este aplicativo: salve como app.py e rode `streamlit run app.py` no terminal.
